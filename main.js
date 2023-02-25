@@ -35,7 +35,7 @@ $(document).ready(
       }
       if (distance <= 0) {
         clearInterval(x);
-        document.getElementById("container").innerHTML = "<h1><br> <span>HAPPY BIRTHDAY HOÀNG VI</span> </h1>";
+        document.getElementById("container").innerHTML = "<h1><br> <span>HAPPY BIRTHDAY ĐỖ HOÀNG VI</span> </h1>";
         var audio = new Audio("./song.mp3");
         audio.play();
         Run();
