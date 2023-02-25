@@ -5,8 +5,8 @@ $(document).ready(
   function start() {
     document.getElementById('title').innerText='CHỜ CHÚT NHÉ! SẼ CÓ BẤT NGỜ ĐẤY'
     //var countDownDate = new Date("2023  Jan 05 11:00:00").getTime();// 2023 Feb 26 00:00:00
-    var countDownDate = new Date('2023-01-05 12:00:00'.replace(/-/g, "/")).getTime();
-    var sayTime = new Date("2023 Jan 05 10:59:49").getTime(); //2023 Feb 25 23:59:49 
+    var countDownDate = new Date('2023-02-25 23:15:00'.replace(/-/g, "/")).getTime();
+    var sayTime = new Date("2023 Feb 25 23:14:49").getTime(); //2023 Feb 25 23:59:49 
   
     // Update the count down every 1 second
     var x = setInterval(function () {
