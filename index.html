@@ -14,10 +14,16 @@
 	<script src="app.js"></script>
 
 	<canvas id="cvs"></canvas>
-	<script src="background.js">
-		
+	<!-- <script src="background.js"></script> -->
+	<canvas id="c"></canvas>
+	<script>
+		var b = document.body;
+		var c = document.getElementsByTagName('canvas')[0];
+		var a = c.getContext('2d');
+		document.body.clientWidth; 
 	</script>
-
+	<script src="https://raw.github.com/gist/1579671/7f515ade253afbc860dac1f84e21998d54359d79/rAF.js"></script>
+	<script src="heart.js"></script>
 	<div class="container" id="container">
 		<h2 id='title'>
 			<button onclick="start()" class="button-64" role="button"><span class="text">Nhấn vào đi cậu :3</span></button>

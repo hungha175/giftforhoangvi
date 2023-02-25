@@ -27,7 +27,7 @@ $(document).ready(function() {
   	context.fillRect(200, canvas.height, 10, -25);
   	context.fillRect(210, canvas.height, 10, -10);
   	context.fillRect(220, canvas.height, 10, -80);
-  	context.fillRect(230, canvas.height, 10, -110);
+  	context.fillRect(230, canvas.height, 10, -11);
   	context.fillRect(240, canvas.height, 10, -130);
   	context.fillRect(250, canvas.height, 10, -110);
   	context.fillRect(260, canvas.height, 10, -80);

@@ -5,7 +5,7 @@ $(document).ready(
   function start() {
     document.getElementById('title').innerText='CHỜ CHÚT NHÉ! SẼ CÓ BẤT NGỜ ĐẤY'
     //var countDownDate = new Date("2023  Jan 05 11:00:00").getTime();// 2023 Feb 26 00:00:00
-    var countDownDate = new Date('2023-02-25 23:15:00'.replace(/-/g, "/")).getTime();
+    var countDownDate = new Date('2023-02-22 23:15:00'.replace(/-/g, "/")).getTime();
     var sayTime = new Date("2023 Feb 25 23:14:49").getTime(); //2023 Feb 25 23:59:49 
   
     // Update the count down every 1 second
@@ -35,7 +35,7 @@ $(document).ready(
       }
       if (distance <= 0) {
         clearInterval(x);
-        document.getElementById("container").innerHTML = "<h1><br> <span>HAPPY BIRTHDAY ĐỖ HOÀNG VI</span> </h1>";
+        document.getElementById("container").innerHTML = "<h2><br> <span>HAPPY BIRTHDAY BẠN IU</span></h2><br/><center><h2>Đỗ Hoàng Vi</h2></center>";
         var audio = new Audio("./song.mp3");
         audio.play();
         Run();
